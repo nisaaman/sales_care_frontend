@@ -1,0 +1,1581 @@
+/* ALL MENU CSS */
+.aside-secondary,
+.tab-content,
+.aside-menu {
+    background-color: #F2F2F2 !important;
+}
+
+.content {
+    background: #F8F8F8 !important;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link {
+    background-color: #E0E0E0 !important;
+}
+
+.aside-menu .menu-nav>.menu-item .menu-submenu .menu-item.menu-item-active>.menu-link {
+    background-color: #E0E0E0 !important;
+}
+
+/* mega menu */
+
+.dropdown-content {
+    background-color: #be1414;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #1BC5BD;
+    height: 250px;
+}
+
+.column h6 {
+    font-size: 1rem !important;
+    color: white !important;
+}
+
+.column a {
+    float: none;
+    font-size: 1rem;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.column a:hover {
+    background-color: #ddd;
+}
+
+/* CARD CSS */
+.cardBackground {
+    box-shadow: none !important;
+}
+
+.headerBorder {
+    border: none !important;
+}
+
+.tabs-class {
+    border: none !important;
+}
+
+.tabs-class .nav-link:hover {
+    border: 0px !important;
+}
+
+.tabs-class .nav-link.active {
+    border: 0px !important;
+    border-bottom: 1px solid !important;
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+    outline: 0;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+body {
+    background-color: #191c1e;
+    color: black;
+    font-family: arial;
+    margin: 0;
+    padding: 3rem;
+}
+
+
+.tree-nav__item {
+    display: block;
+    white-space: nowrap;
+    color: black;
+    position: relative;
+    overflow: overlay;
+}
+
+.tree-nav__item.is-expandable::before {
+    /* border-left: 1px solid #333; */
+    content: "";
+    height: 100%;
+    left: 0.8rem;
+    position: absolute;
+    top: 2.4rem;
+    height: calc(100% - 2.4rem);
+}
+
+
+.tree-nav__item .tree-nav__item {
+    margin-left: 1.4rem;
+    ;
+}
+
+.tree-nav__item.is-expandable[open]>.tree-nav__item-title::before {
+    font-family: "ionicons";
+    /* color: white; */
+    transform: rotate(90deg);
+}
+.tree-nav-item{
+    background-color: #1bc5bd;
+    border-radius: 5px;
+    color: white !important;
+    margin-bottom: 2px;
+    padding: 0px 10px
+}
+
+/* .tree-nav__item.is-expandable[open]>.tree-nav__item-title {
+    background-color: #1bc5bd;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 2px;
+} */
+
+.tree-nav__item.is-expandable[open]>.tree-nav__item-title>label {
+    margin-bottom: 0.1rem;
+}
+
+.tree-nav__item.is-expandable>.tree-nav__item-title {
+    padding-left: 1.7em;
+}
+
+.tree-nav__item.is-expandable>.tree-nav__item-title::before {
+    position: absolute;
+    will-change: transform;
+    transition: transform 300ms ease;
+    font-family: "ionicons";
+    color: black;
+    content: "\f125";
+    left: 0;
+    display: inline-block;
+    width: 1.6rem;
+    text-align: center;
+}
+
+.tree-nav__item-title {
+    cursor: pointer;
+    display: block;
+    outline: 0;
+    color: black;
+    line-height: 3.2rem;
+}
+
+.tree-nav__item-title .icon {
+    display: inline;
+    padding-left: 1.6rem;
+    margin-right: 0.8rem;
+    color: black;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.tree-nav__item-title .icon::before {
+    top: 0;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 1.6rem;
+    text-align: center;
+}
+
+.tree-nav__item-title::-webkit-details-marker {
+    display: none;
+}
+
+.btn-size {
+    padding: 2px !important;
+}
+
+.btn-padding {
+    padding: 0.20rem 0.50rem !important;
+}
+
+.btn-padding i {
+    padding-right: 0 !important;
+}
+
+.imgUploadDiv {
+    border-radius: inherit;
+    color: #FFF;
+    margin-top: 111px;
+    margin-left: 83px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #828282;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.card-div-header {
+    margin-top: "7px";
+    border: 20px;
+    border-radius: 20px;
+}
+
+.card-header-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card-div-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 26px;
+    background: #F2F2F2;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    padding: 5px 6px;
+}
+
+.card-div-icon i {
+    color: #828282;
+    font-size: 1rem !important;
+}
+
+.used-by-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.font-14 {
+    font-size: 1.2rem;
+}
+
+.font-12 {
+    font-size: 0.75rem;
+}
+
+.font-15 {
+    font-size: 0.938rem
+}
+
+.font-16 {
+    font-size: 1rem
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.chip {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+.full-card-redius {
+    border-radius: 15px !important;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-header-redius {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.product-title {
+    font-size: 14px;
+    line-height: 21px;
+    color: #A0A0A0;
+}
+
+.available {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B6B6B6;
+}
+
+.available-ammout {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    color: #4E4E4E;
+}
+
+.faq-title {
+    color: #878787;
+}
+
+/*  STEPPER CSS  */
+
+.MuiSvgIcon-root {
+    font-size: 2.5rem !important;
+}
+
+.MuiIconButton-label>.MuiSvgIcon-root{
+    font-size: 1.5rem !important;
+}
+
+.PrivateSwitchBase-root-149 {
+    padding: 5px !important;
+}
+
+.MuiListItemIcon-root {
+    min-width: 30px !important;
+}
+
+.MuiCardHeader-avatar {
+    margin-right: 3px !important;
+}
+
+.MuiTypography-caption {
+    color: #BDBDBD !important;
+}
+
+.MuiStepIcon-text {
+    fill: #FFFFFF !important;
+    font-size: 12px !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #878787 !important;
+}
+
+.MuiStepConnector-lineVertical {
+    border-left-style: dashed !important;
+}
+
+.MuiStepConnector-lineVertical {
+    margin-left: 4px !important;
+}
+
+.MuiStepLabel-label.MuiStepLabel-completed {
+    color: #BDBDBD !important;
+}
+
+.MuiStepLabel-label.MuiStepLabel-active {
+    color: #4F4F4F !important;
+}
+
+.MuiButton-containedPrimary {
+    color: white !important;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #1bc5bd !important;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #1bc5bd !important;
+}
+
+.MuiStepper-vertical {
+    padding: 100px 30px !important;
+}
+
+.create-field-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #1D1D1D;
+}
+
+.steper-height {
+    min-height: 400px;
+    margin-top: 70px;
+}
+
+.level-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 0.875rem !important;
+    line-height: 20px;
+    color: #1D1D1D;
+}
+
+.thanks-sub-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.thanks-chip-title {
+    background-color: #F8F8F8;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125 rem;
+    line-height: 1.313 rem;
+    text-align: center;
+    color: #3F4254;
+}
+
+/*  DEPOT CONFIGURE CSS  */
+.first-level-top {
+    top: 25px;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+.edit-icon:hover {
+    background-color: white;
+}
+
+.edit-icon:hover i {
+    color: #1BC5BD;
+}
+
+.PhoneInputInput {
+    border: none !important;
+}
+
+.PhoneInputInput:hover {
+    border: none !important;
+}
+
+/* LOCATION SETUP CSS */
+
+.areaLevel {
+
+    padding: 25px 10px;
+    border-radius: 7px;
+    display: inline-block;
+    background: rgba(75, 75, 75, 0.05) none repeat scroll 0% 0%;
+    position: relative;
+    line-height: 0;
+}
+
+.deleteIcon {
+    background: #000000;
+    padding: 3px 5px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -25px;
+    position: absolute;
+    font-size: 10px;
+    margin-left: -6px;
+}
+
+.tree-level {
+    border-bottom: 1px solid #828282;
+    padding: 10px 0px;
+}
+
+.breadCrum-bg-color {
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    border-radius: 0.42rem;
+}
+
+.breadCrum-bg-color li {
+    padding-left: 0.5rem;
+}
+
+.breadCrum-main-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #828282;
+    padding: 0px 10px;
+    border-right: 2px solid #828282;
+}
+
+.breadCrum-sub-title {
+    font-weight: 300;
+    font-size: 15px;
+    color: #828282;
+}
+
+.gotIt-btn {
+    margin-left: 20px !important;
+    width: 140px !important;
+    margin-top: -250px !important;
+}
+
+/*  PRODUCT CONFIGURE CSS */
+.bi-chevron-right {
+    font-size: 13px !important;
+}
+
+.product-profile-breadcrum {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.nested-span {
+    background-color: #F2F2F2 !important;
+    padding: 5px 16px;
+    margin-right: 14px;
+}
+
+.margin-top-minus-25 {
+    margin-top: -25px;
+}
+
+#tab-tabpane-levelSetup form,
+#tab-tabpane-levelTree {
+    background-color: white !important;
+}
+
+
+/* SALES CSS */
+
+.approval-config-btn {
+    background-color: #F2F2F2 !important;
+}
+
+.sales-chip {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.813rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px dashed #E0E0E0;
+    padding: 10px 20px;
+}
+
+.nav.nav-pills .nav-link.active {
+    color: #2D9CDB !important;
+    background-color: white !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: white !important;
+    border-bottom: 1px solid #56CCF2 !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px !important;
+}
+
+/* SALES DATA CSS */
+#pills-order-summary,
+#pills-activities-reports,
+#pills-trade-price-setup-new,
+#pills-trade-price-vat-setup,
+#pills-trade-discount-cash-setup-new,
+#pills-trade-discount-credit-setup {
+    background-color: white !important;
+
+}
+
+.sales-data-chip {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 30px;
+    margin-top: 30px;
+    background: #F9F9F9
+}
+
+.pagination {
+    float: right !important;
+}
+
+/* SALES BOOKING VIEW */
+.export-btn {
+    background: white !important;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03) !important;
+    color: #828282 !important;
+}
+
+.filter-btn {
+    background: rgba(130, 130, 130, 0.05) !important;
+    color: #828282 !important;
+}
+
+.sales-booking-view-span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.813rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.sales-booking-view-icon {
+    font-size: 30px !important;
+    color: #4F4F4F;
+    margin-left: -13px;
+}
+
+.sales-credit-btn {
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+}
+
+.sales-booking-view-stepper .MuiStepLabel-horizontal .MuiSvgIcon-root {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.sales-booking-view-stepper .MuiStepper-horizontal {
+    background: #F9F9F9;
+    border-radius: 25px;
+}
+
+.sales-booking-view-stepper .MuiStepConnector-lineHorizontal {
+    border-top-style: dashed !important;
+    border-top-width: 1px !important;
+    margin-top: 8px !important;
+}
+
+/* BOOKING ORDER SUMMARY CSS */
+
+#pills-tab-order {
+    border-bottom: 1px solid #E1F0FA;
+}
+
+.order-table {
+    background: #F9F9F9 !important;
+    border-radius: 25px !important;
+}
+
+.table-order {
+    background: #F9F9F9 !important;
+    border-radius: 25px !important;
+    border-right: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #DCDCDC 49.48%, rgba(196, 196, 196, 0) 100%) !important;
+}
+
+.sales-booking-view-table th {
+    border-top: 1px solid #F9F9F9 !important;
+}
+
+.sales-booking-view-table-first-column {
+    border-bottom: 1px solid #DCDCDC !important;
+    border-right: 1px solid #DCDCDC !important;
+    padding-top: 20px !important;
+}
+
+.sales-booking-view-table-first-column-title {
+    color: #828282;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.sales-booking-view-table-first-column-sub-title {
+    color: #BDBDBD;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.83rem;
+}
+
+.booking-order-list-table {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 0.938rem !important;
+}
+
+.booking-order-list-table-first-row {
+    color: #0396FF !important;
+    border-bottom: 1px solid #E9E9E9 !important;
+}
+
+/* BOOKING ACTIVITIES AND REPORT CSS */
+.timeline.timeline-6 {
+    margin-left: 30px !important;
+}
+
+.timeline.timeline-6::before {
+    border: 1px dashed #E0E0E0;
+    transform: rotate(360deg);
+}
+
+.timeline.timeline-6::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 112px !important;
+    width: 1px !important;
+    top: 8px !important;
+    bottom: 5px !important;
+    background-color: rgb(175, 165, 165) !important;
+
+}
+
+.timeline.timeline-6 .timeline-item .timeline-badge {
+    margin-left: 24px !important;
+}
+
+.timeline.timeline-6 .timeline-item .timeline-label {
+    font-size: 0.83rem !important;
+    width: 80px !important;
+}
+
+.booking-time-color {
+    color: #828282;
+}
+
+.booking-view-card {
+    border: 1px solid white !important;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03) !important;
+    border-radius: 0px 20px 20px 20px !important;
+}
+
+.booking-activities-title {
+    color: #56CCF2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.booking-activities-details {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #828282;
+}
+
+.report-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.booking-reports-card {
+    border-left: 4px solid #BB6BD9 !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.report-sales-booking-title {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #BDBDBD !important;
+}
+
+.report-booking-bg {
+    background: #F9F9F9 !important;
+    border-radius: 5px !important;
+}
+
+.report-booking-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #828282;
+}
+
+.reports-card-delivery {
+    border-left: 4px solid #6fcf97 !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.reports-card-order {
+    border-left: 4px solid #56ccf2 !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.common-report-card {
+    padding: 1.25rem !important;
+}
+
+/* COLLECTION DATA */
+.summary-referrence {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.collection-sales-booking-title {
+    border-left: 4px solid #EB5757 !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.btn.btn-clean:not(:disabled):not(.disabled).active {
+    background-color: #d8dee5 !important;
+}
+
+/* SALE TRADE DISCOUNT */
+
+.sales-trade-discount-action .btn.btn-icon.btn-sm {
+    height: calc(1.35em + 1.1rem + -5px) !important;
+    width: 23px !important;
+}
+
+.sales-trade-discount-action .btn.btn-icon {
+    height: none !important;
+    width: 22px !important;
+}
+
+.ord-calculator .apexcharts-legend {
+    top: 115px !important;
+    right: -14px !important;
+}
+
+/* CALENDAR CSS */
+.ord-calculator-calendar .react-calendar {
+    width: 100% !important;
+    border: none !important;
+    line-height: 0rem !important;
+    background: #FFFFFF !important;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03) !important;
+    border-radius: 20px !important;
+    padding: 20px !important;
+}
+
+.ord-calculator-calendar .react-calendar button:enabled:hover {
+    background: rgba(79, 79, 79, 0.03) !important;
+    border-radius: 100px !important;
+    color: rgba(79, 79, 79, 0.65) !important;
+}
+
+.ord-calculator-calendar .react-calendar__tile--now {
+    background: #0d0d0c !important;
+    color: white !important;
+    border-radius: 100px !important;
+}
+
+.ord-calculator-info {
+    border-radius: 25px !important;
+    background: #FFFFFF !important;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* DISTRIBUTORS HEADER CSS */
+.btn-gradient-blue {
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    box-shadow: 0px 5px 10px rgba(46, 168, 255, 0.3);
+    border-radius: 5px;
+    color: red;
+}
+
+.distributor-progress .progress {
+    height: 0.4rem !important;
+}
+
+.circel-active {
+    border-radius: 100%;
+    margin-top: 31px;
+    margin-left: 38px;
+    position: absolute;
+    border: 3px solid white;
+    width: 15px;
+    height: 15px;
+    background: #27AE60;
+}
+
+/* DISTRIBUTOR ACTIVITY CSS */
+.activity-log-tilte {
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* COLLECTION BUDGET CSS */
+
+.collection-budget-tabs li {
+    background: #E1F0FA;
+    border-radius: 100px;
+}
+
+.collection-budget-tabs li a {
+    color: #0396FF !important;
+}
+
+.collection-budget-tabs .nav.nav-pills .nav-link.active {
+    border-bottom: none !important;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 100px !important;
+    font-weight: 700;
+}
+
+/* PAYMENT COLLECTION INVOICES CSS */
+.payment-collection-invoices-select {
+    margin-top: 2px !important;
+    height: 36px !important;
+}
+
+.invoices-count-span-credit {
+    background: #E1F0FA;
+    color: #0396FF;
+    margin-top: 10px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+
+.invoices-count-span-cash {
+    background: rgba(242, 201, 76, 0.1);
+    color: #F2994A;
+    margin-top: 10px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+
+.invoices-count-span-overdues {
+    background: rgba(235, 87, 87, 0.05);
+    color: #EB5757;
+    margin-top: 10px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+
+.invoices-filter-span {
+    margin-right: 30px;
+    background: #FFFFFF;
+    color: #2D9CDB;
+    margin-top: 10px;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+
+.invoices-filter-span-change {
+    background: #56CCF2;
+    color: white;
+}
+
+.guarantee-cheque-div {
+    background: #E1F0FA;
+    color: #0396FF;
+    padding: 8px;
+}
+
+.distributor-thanks-div {
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+/* FISCAL YEAR CSS */
+.time-lile-list-progressbar-blue {
+    background: rgb(86, 204, 242, 0.5);
+    border-radius: 100px;
+    margin-right: 20px;
+    padding: 1px 100px;
+    position: "relative";
+    text-align: center;
+    color: #2D9CDB;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.time-lile-list-progressbar-green {
+    background: rgba(183, 238, 187, 0.5);
+    border-radius: 100px;
+    margin-right: 20px;
+    padding: 1px 100px;
+    position: "relative";
+    text-align: center;
+    color: #72D778;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.time-lile-list-progressbar-yellow {
+    background: rgb(242, 201, 76, 0.2);
+    border-radius: 100px;
+    margin-right: 20px;
+    padding: 1px 100px;
+    position: "relative";
+    text-align: center;
+    color: #F2994A;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.time-lile-list-progressbar-purple {
+    background: rgb(187, 107, 217, 0.3);
+    border-radius: 100px;
+    margin-right: 20px;
+    padding: 1px 100px;
+    position: "relative";
+    text-align: center;
+    color: #BB6BD9;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.fiscal-year-title {
+    color: #828282;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.fiscal-year-left-side-row-title .pen-edit-icon {
+    margin-top: -8px;
+    margin-left: -2px;
+}
+
+.daysCount {
+    color: #4F4F4F;
+    font-weight: 700;
+}
+
+.company-select {
+    border: none !important;
+}
+
+.fiscal-year-thanks-div {
+    background: #F9F9F9;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+
+/* TRADE PRICE SETUP */
+
+.products-breadcrum {
+    margin-left: -21px;
+    margin-top: -9px;
+}
+
+.three-dot-hr {
+    background: #F2F2F2;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top: -70px;
+}
+
+.three-dot-hr-btn {
+    background: #F2F2F2;
+    border: none;
+}
+
+.mfg-price-span {
+    background: #F2F2F2;
+    border-radius: 100px;
+    display: inline-block;
+    color: #828282;
+    padding: 10px 20px;
+}
+
+.text-color-black {
+    color: #555553;
+}
+
+.current-trade-price {
+    background: rgba(111, 207, 151, 0.1);
+    border-radius: 10px;
+}
+
+.current-trade-price-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #6FCF97;
+}
+
+.trade-price-add-btn {
+    background: linear-gradient(135deg, #00E768 0%, #1BB861 100%);
+    border-radius: 100px !important;
+    border: none !important;
+    padding: 10px 20px !important;
+}
+
+.current-trade-price-summary {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6FCF97;
+}
+
+.current-trade-price-summary-text {
+    color: #4F4F4F;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.close-btn button {
+    border: none;
+    background: white;
+}
+
+.add-vat-div-green {
+    background: linear-gradient(135deg, #00E768 0%, #1BB861 100%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.add-vat-div-gray {
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.add-to-vat {
+    background: #4F4F4F;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.vat-switch {
+    margin-top: -45px;
+}
+
+.scroll-product-search {
+    overflow: scroll;
+    height: 500px;
+}
+
+.current-vat-summary-text {
+    color: #6FCF97;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.current-vat-active {
+    background: #FFFFFF;
+    border: 1px solid #6FCF97;
+    border-radius: 10px;
+}
+
+.current-vat-inactive {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+.vat-status {
+    margin-top: -12px;
+}
+
+.current-vat-summary-text-gray-color {
+    font-weight: 700;
+    font-size: 15px;
+    color: #BDBDBD;
+}
+
+.current-vat-summary {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.active-product {
+    background: rgb(225, 240, 250, 0.5);
+    border-radius: 5px;
+    padding-left: 0px;
+    padding: 10px;
+    color: #0396FF;
+}
+
+.discountCreditDiv {
+    background: #56CCF2;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.discount-add-switch {
+    margin-top: -28px;
+}
+
+/* ORD OVERDUE SETUP */
+
+.add-to-ord-setup {
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.ord-add-div {
+    background: rgb(225, 240, 250, 0.5);
+    border-radius: 10px;
+    color: #2D9CDB;
+    padding: 30px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.margin-right {
+    margin-right: 165px
+}
+
+/* PAYMENT BOOK SETUP CSS */
+.payment-book-custom-padding {
+    padding: 20px 0px;
+}
+
+.circular-progress-title {
+    position: absolute;
+    padding-left: 2.5rem;
+    top:3.5rem
+}
+
+.configure-payment-book-progress-bar .MuiCircularProgress-root {
+    width: 100px !important;
+}
+
+/* BUDGET SETUP CSS */
+.budget-fiscal-year-title {
+    color: #4F4F4F;
+    font-weight: 600;
+}
+
+.budget-download-btn {
+    background: #F9F9F9 !important;
+    border-radius: 5px !important;
+    padding: 5px 10px !important;
+    color: #828282 !important;
+}
+
+/* PAYMENT ADJUSTMENT */
+.payment-verify-div {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    color: #0396FF;
+    padding: 30px;
+}
+
+.approve-btn {
+    background: linear-gradient(135deg, #00E768 0%, #1BB861 100%);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.reject-btn {
+    background: #F9F9F9;
+    border: 1px solid rgba(235, 87, 87, 0.3) !important;
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+    color: #EB5757;
+}
+
+.approved-btn {
+    background: rgba(111, 207, 151, 0.7) !important;
+    border-radius: 100px !important;
+    color: #27AE60;
+    border: none;
+    padding: 10px 20px;
+}
+
+.reject-comment-div {
+    background: rgba(235, 87, 87, 0.07);
+    border-radius: 20px;
+}
+
+.confirm-reject-span {
+    background: rgba(235, 87, 87, 0.1);
+    border-radius: 100px !important;
+    color: #EB5757;
+    padding: 10px 20px;
+}
+
+.reject-note-div {
+    background: #FFF9F4;
+    border: 1px dashed #F2C94C;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.border-dash {
+    border: 1px dashed #0396FF !important;
+    padding: 7px 100px;
+    border-radius: 5px;
+    color: #0396FF
+}
+
+/* FILE UPLOAD BUTTON CSS */
+.btn-warning-test {
+    position: relative;
+    padding: 11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.btn-warning-test input[type="file"] {
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: scale(3);
+    opacity: 0;
+}
+
+/* INVENTORY PRODUCT CSS */
+
+.products-filter-span {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    color: #2D9CDB;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.products-filter-span-change {
+    background: #56CCF2;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.expiry-date-product {
+    background: rgba(225, 240, 250, 0.5);
+    border-radius: 6px;
+    padding: 9px;
+    color: #0396FF;
+}
+
+.product-list-back-btn {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    color: #828282;
+    padding: 10px;
+}
+
+.qr-generation-btn {
+    background: linear-gradient(135deg, #00E768 0%, #1BB861 100%);
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.bg-danger-close {
+    background: rgba(235, 87, 87, 0.1);
+    border-radius: 10px;
+    color: #EB5757;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-profile-summary {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 15px;
+    background: #F9F9F9
+}
+
+.product-profile-view-circle-main {
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+}
+
+.product-profile-view-circle {
+    border-radius: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    border: 2px solid white;
+    width: 11px;
+    height: 11px;
+}
+
+/* INVENTORY STOCK CSS */
+.stock-approval-btn {
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    box-shadow: 0px 5px 10px rgba(46, 168, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.approval-view-header {
+    background: #333333;
+    border-radius: 0px;
+    padding: 0px 10px;
+    color: #BDBDBD;
+}
+
+.select-order-list{
+    background: #FFFFFF;
+    border-left: 3px solid #56CCF2;
+    box-shadow: 10px 10px 5px lightgray;
+    color: #0396FF;
+}
+.picking-list-normal-span{
+    border: 1px solid #F2F2F2;
+    border-radius: 100px; 
+    padding: 3px 5px;
+}
+.picking-list-select-span{
+    background: rgba(225, 240, 250, 0.5);
+    border-radius: 100px;
+    color: black;
+    padding: 3px 5px;
+}
+
+/* background color and text color */
+
+.light-gray-bg {
+    background: #F2F2F2 !important;
+}
+
+.dark-gray-color {
+    color: #828282 !important;
+}
+
+.light-purple-bg {
+    background: rgba(155, 81, 224, 0.2);
+}
+
+.light-blue-bg {
+    background: rgba(3, 150, 255, 0.05) !important;
+}
+
+.dark-blue-color {
+    color: #0396FF !important;
+}
+
+.dark-purple-color {
+    color: #9B51E0 !important;
+}
+
+.light-warning-bg {
+    background: rgba(242, 153, 74, 0.2) !important;
+}
+
+.dark-warning-color {
+    color: #F2994A !important;
+}
+
+.light-success-bg {
+    background: rgba(80, 205, 137, 0.2) !important;
+}
+
+.dark-success-color {
+    color: #50CD89 !important;
+}
+
+.light-danger-bg {
+    background: rgb(235, 87, 87, 0.2) !important;
+}
+
+.dark-danger-color {
+    color: #EB5757 !important;
+}
+
+/* BORDER CSS */
+.border-radius-20{
+    border-radius: 20px !important;
+}
+.border-radius-100{
+    border-radius: 100px !important;
+}
+
+/* CURSOR CSS */
+.pointer{
+    cursor: pointer;
+}
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #1ac134 !important;
+}
+
+
+.report-table table {
+    max-width: 100%;
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555 !important;
+}
+
+.report-table table tr th {
+    background: lightseagreen;
+    border: 1px solid #eee;
+    border-bottom: 1px solid #ddd; 
+    font-weight: bold;
+}
+
+.material-planner-tree-nav-item{
+    background-color: #1bc5bd;
+    border-radius: 5px;
+    color: white !important;
+    margin-bottom: 2px;
+    padding: 0px 10px
+}
+.report-product-category-tree-selected{
+    background-color: #1bc5bd;
+    border-radius: 5px;
+    color: white !important;
+    margin-bottom: 2px;
+    padding: 0px 10px
+}
+.report-location-tree-selected{
+    background-color: #1bc5bd;
+    border-radius: 5px;
+    color: white !important;
+    margin-bottom: 2px;
+    padding: 0px 10px
+}
+.scroll-product-list {
+    overflow: scroll;
+    height: 350px;
+}
+
